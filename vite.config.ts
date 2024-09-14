@@ -10,6 +10,10 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
+  base: '/docs/',
+  build: {
+    outDir: 'docs',
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
