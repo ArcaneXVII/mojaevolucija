@@ -1,0 +1,43 @@
+.icon {
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    vertical-align: -.125rem;
+    background-size: contain;
+    background-color: rgb(255, 255, 255);
+
+    &--leader {
+        mask: url(icons/crown.svg) no-repeat center;
+        mask-size: contain;
+    }
+
+    &--sniper {
+        mask: url(icons/sniper-round.svg) no-repeat center;
+        mask-size: contain;
+    }
+
+    &--support {
+        mask: url(icons/support.svg) no-repeat center;
+        mask-size: contain;
+    }
+
+    &--lurker {
+        mask: url(icons/lurker.svg) no-repeat center;
+        mask-size: contain;
+    }
+
+    &--anchor {
+        mask: url(icons/anchor.svg) no-repeat center;
+        mask-size: contain;
+    }
+
+    &--myevo {
+        mask: url(icons/myevo-crop.svg) no-repeat center;
+        mask-size: contain;
+    }
+
+    &--header {
+        width: 15rem;
+        height: 5rem;
+    }
+}
