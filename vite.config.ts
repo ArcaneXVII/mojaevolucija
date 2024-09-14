@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
+  base: '/mojaevolujica',
   build: {
     outDir: 'docs',
     rollupOptions: {
