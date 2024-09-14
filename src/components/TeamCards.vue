@@ -22,34 +22,35 @@ const toggleView = () => {
       <div v-if="isVisible" class="card-container" :class="{ 'show-all': showAllCards }">
         <PlayerCard
           :player="{
-            name: 'Tiqid',
-            picture: 'images/Waterman.jpg',
+            name: 'Soney',
+            picture: 'https://avatars.akamai.steamstatic.com/c2a11200dc7174c539e1ba3f50820c11509e78bc_full.jpg',
             role: PlayerRole.ANCHOR,
             stats: {
-              firepower: 75,
-              entrying: 70,
-              trading: 80,
-              opening: 75,
-              clutching: 42,
-              sniping: 31,
-              utility: 61
+              firepower: 70,
+              entrying: 22,
+              trading: 72,
+              opening: 23,
+              clutching: 50,
+              sniping: 0,
+              utility: 27
             }
           }"
         />
 
         <PlayerCard
           :player="{
-            name: 'JustKidding',
-            picture: 'images/Demidemi.png',
+            name: 'B0obai',
+            picture:
+              'https://avatars.akamai.steamstatic.com/ba213f020debc8191658653651ca86e28fb892c0_full.jpg',
             role: PlayerRole.SUPPORT,
             stats: {
-              firepower: 63,
-              entrying: 43,
-              trading: 60,
-              opening: 35,
-              clutching: 82,
-              sniping: 18,
-              utility: 69
+              firepower: 83,
+              entrying: 60,
+              trading: 89,
+              opening: 27,
+              clutching: 85,
+              sniping: 0,
+              utility: 90
             }
           }"
           class="side-card"
@@ -58,16 +59,16 @@ const toggleView = () => {
         <PlayerCard
           :player="{
             name: 'Mind',
-            picture: 'images/KassadIsWatching.jpg',
+            picture: 'https://avatars.akamai.steamstatic.com/078416c7db11c1d762d32a87a45aade18e9d2fe5_full.jpg',
             role: PlayerRole.LEADER,
             stats: {
-              firepower: 54,
-              entrying: 50,
-              trading: 67,
-              opening: 35,
-              clutching: 52,
-              sniping: 13,
-              utility: 78
+              firepower: 63,
+              entrying: 32,
+              trading: 90,
+              opening: 22,
+              clutching: 21,
+              sniping: 0,
+              utility: 97
             }
           }"
           class="middle-card"
@@ -76,16 +77,17 @@ const toggleView = () => {
         <PlayerCard
           :player="{
             name: 'Kannax',
-            picture: 'images/KenyanMan.PNG',
+            picture:
+              'https://avatars.akamai.steamstatic.com/92c9427741bbfcbbc668e11617229e37a63ec91f_full.jpg',
             role: PlayerRole.SNIPER,
             stats: {
-              firepower: 81,
-              entrying: 33,
-              trading: 67,
-              opening: 58,
-              clutching: 72,
-              sniping: 89,
-              utility: 54
+              firepower: 90,
+              entrying: 12,
+              trading: 61,
+              opening: 72,
+              clutching: 86,
+              sniping: 87,
+              utility: 41
             }
           }"
           class="side-card"
@@ -93,17 +95,17 @@ const toggleView = () => {
 
         <PlayerCard
           :player="{
-            name: 'Boobai',
-            picture: 'images/PillMan.JPG',
+            name: 'Mike',
+            picture: 'https://avatars.akamai.steamstatic.com/d724d84899399f7652b69a6742db48d56c231844_full.jpg',
             role: PlayerRole.LURKER,
             stats: {
-              firepower: 100,
-              entrying: 32,
-              trading: 57,
-              opening: 65,
-              clutching: 82,
-              sniping: 13,
-              utility: 72
+              firepower: 83,
+              entrying: 68,
+              trading: 70,
+              opening: 72,
+              clutching: 81,
+              sniping: 0,
+              utility: 73
             }
           }"
         />

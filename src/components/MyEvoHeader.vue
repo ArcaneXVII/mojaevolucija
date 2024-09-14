@@ -3,13 +3,13 @@
 <template>
   <div class="w-full flex items-center justify-center mb-32 mt-16">
     <transition name="fade" appear>
-      <span class="text-transparent text-end font-bold akira-expanded w-1/6">MyEvolution</span>
+      <span class="text-transparent text-end akira-expanded w-1/6 tracking-widest">MyEvolution</span>
     </transition>
     <transition name="fade" appear>
       <i class="icon icon--myevo icon--header mx-6"></i>
     </transition>
     <transition name="fade" appear>
-      <span class="text-transparent text-start font-bold akira-expanded w-1/6">MojaEvolujica</span>
+      <span class="text-transparent text-start akira-expanded w-1/6 tracking-widest">MojaEvolujica</span>
     </transition>
   </div>
 </template>
