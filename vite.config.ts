@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
-  base: '/docs/',
+  base: '/',
   build: {
     outDir: 'docs',
     rollupOptions: {
