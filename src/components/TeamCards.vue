@@ -67,7 +67,7 @@ const toggleView = () => {
               trading: 90,
               opening: 22,
               clutching: 21,
-              sniping: 0,
+              sniping: 3,
               utility: 97
             }
           }"
