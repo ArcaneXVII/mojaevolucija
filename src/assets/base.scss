@@ -60,7 +60,9 @@
 
 body {
   min-height: 100vh;
+  min-width: 100vw;
   color: var(--color-text);
+  overflow: hidden;
   transition:
     color 0.5s,
     background-color 0.5s;
@@ -86,15 +88,10 @@ body {
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
   background: radial-gradient(ellipse at center, rgb(0, 12, 15), rgba(0, 0, 0, 1));
-  overflow: hidden;
 }
 
 body {
   background-image: url('../assets/gradients/gradient-rgb.svg');
   background-size: 100vw;
-  width: 100vw;
-  height: 100vh;
 }
