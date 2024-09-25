@@ -9,7 +9,7 @@
       <i class="icon icon--myevo icon--header mx-6"></i>
     </transition>
     <transition name="fade" appear>
-      <span class="text-transparent text-start akira-expanded w-1/6 tracking-widest">MojaEvolujica</span>
+      <span class="text-transparent text-start akira-expanded w-1/6 tracking-widest">MojaEvolucija</span>
     </transition>
   </div>
 </template>
