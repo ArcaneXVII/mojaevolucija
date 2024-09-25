@@ -10,7 +10,7 @@ export default defineConfig({
     vue(),
     vueJsx(),
   ],
-  base: '/mojaevolujica',
+  base: '/mojaevolucija',
   build: {
     outDir: 'docs',
   },
